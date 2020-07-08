@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 40px;
+}
+.banner{
+    background: #F0FFF0;
+    height: 576px;
+    width: 100%;
+}
+.small-red{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FD511A;
+
+}
+.banner h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.green{
+    color: #21B573
+}
+.logo{
+    width: 200px;
+}
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+}
+.navbar ul.navbar-nav li{
+    margin-right: 30px;
+}
+
+.navbar button.navbar-toggler{
+    background-color: #21B573 !important;
+    border-color: #177e50;
+}
+@media (max-width: 768px) {
+    nav.navbar .navbar-collapse {
+      background: #21B573;
+      padding: 2px 5px;
+    }
+    nav.navbar .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+        color: #fff;
+    }
+  }
+
+.common-button{
+    background-color: #21B573;
+    text-decoration: none;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 33px;
+    color: #fff;
+    
+}
+.common-button:hover{
+    background-color: #282531;
+}
+.common-button a{
+    color: #ffffff !important;
+}
+.banner-img{
+    width: 554px;
+    height: 346px;
+}
+@media (max-width: 768px){
+    .banner-img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.get-started{
+    padding: 12px 36px;
+    font-size: 16px;
+}
+
+.overview{
+    margin-top: 40px;
+}
+@media (max-width: 768px){
+    .overview{
+        margin-top: 250px;
+        margin-left: 70px;
+        text-align: center;
+    }
+    .overview .view-box{
+        margin: 20px;
+    }
+}
+
+.view-box{
+    background: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 270px;
+    height: 270px;
+}
+.view-box:hover{
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px lightgray;
+}
+
+.view-box img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.view-box h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+.view-box h6{
+    font-weight: normal;
+    font-size: 16px;
+    color: #585859;
+}
+
+
+.courses .container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    margin-top: 80px;
+    margin-bottom: 55px;
+}
+.card-img-top{
+    padding: 20px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+}
+.card-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.buy-courses{
+    padding: 8px 28px;
+    font-size: 16px;
+}
+
+.card-deck .card{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.card-deck .card .card-footer{
+    border-top: none;
+    border-radius: 18px;
+    background-color: #fff;
+}
+.card-deck .card .card-footer img{
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.card-deck .card .card-footer p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+
+/*Testimonial CSS*/
+.testimonial .container h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 55px;
+}
+
+
+.carousel-item{
+    padding: 20px 200px;
+}
+
+.slide-img{
+    width: 120px !important;
+    height: 120px;
+}
+
+.carousel-item p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 50px;
+    color: #000000 !important;
+}
+.carousel-item p span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.testimonial .container .desktop{
+    display: block;
+}
+.testimonial .container .mobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .testimonial .container .desktop{
+        display: none;
+    }
+    .testimonial .container .mobile{
+        display: block;
+    }
+    .carousel-item{
+        padding: 20px 20px;
+    }
+    
+    .carousel-item p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000 !important;
+    }
+  }
+
+/*Subscribe CSS*/
+.subscribe .container h3{
+    color: #ffffff;
+    text-align: center;
+}
+.subscribe .container h6{
+    color: #CDCDCD;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subscribe .container .subscribe-button{
+    background-color: #282531;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+}
+.subscribe .container .subscribe-button:hover{
+    background-color: #21B573;
+    border: 1px solid #177e50 ;
+    color: #ffffff;
+}
+.green-div{
+    background-image: linear-gradient(to bottom, #21B573 0%, #177e50 100%);
+    border-radius: 10px;
+    padding: 50px 80px;
+}
+
+
+/*Footer CSS*/
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #282531;
+    margin-top: 80px;
+}
+
+.footer .container .row p{
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer .container .row ul{
+    margin-top: 55px;
+}
+.footer .container .row ul h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer .container ul li{
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer .copy{
+    text-align: center !important;
+    color: #CDCDCD !important;
+    padding: 10px 0px;
+    margin-bottom: 0px !important;
+}
